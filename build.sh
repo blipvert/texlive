@@ -125,52 +125,43 @@ then
     --disable-native-texlive-build \
     --disable-shared    \
     --disable-largefile \
-    --disable-mf \
+    --disable-synctex \
     --disable-mflua \
     --disable-mfluajit \
     --disable-pmp \
     --disable-upmp \
-    --disable-synctex \
-    --disable-tex-synctex \
-    --disable-etex-synctex \
     --disable-ptex \
-    --disable-ptex-synctex \
     --disable-eptex \
-    --disable-eptex-synctex \
     --disable-uptex \
-    --disable-uptex-synctex \
     --disable-euptex \
-    --disable-euptex-synctex \
     --disable-aleph \
     --disable-xetex \
-    --disable-xetex-synctex \
     --disable-pdftex \
-    --disable-pdftex-synctex \
     --disable-luatex \
     --disable-luajittex \
+    --enable-tex \
+    --enable-mf \
     --enable-mp \
     --enable-web2c \
-    --enable-web2c-install \
     --enable-compiler-warnings=max \
     --with-system-mpfr \
     --with-system-gmp \
     --with-system-harfbuzz \
     --with-system-cairo \
     --with-system-libpng \
-    --without-ptexenc \
     --with-system-ptexenc \
     --with-system-kpathsea \
     --with-system-xpdf \
-    --with-system-freetype \
     --with-system-freetype2 \
     --with-system-gd \
     --with-system-teckit \
     --with-system-t1lib \
     --with-system-icu \
-    --with-system-graphite \
+    --with-system-graphite2 \
     --with-system-zziplib \
     --with-system-poppler \
-    --without-mf-x-toolkit --without-x \
+    --without-mf-x-toolkit \
+    --without-x \
     || exit 1 
 fi
 
