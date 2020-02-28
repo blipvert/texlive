@@ -103,11 +103,6 @@ case `uname` in
 esac
 
 # ----------
-# autoconfigure if necessary
-
-( cd ./source && ./reautoconf )
-
-# ----------
 # clean up, if needed
 if [ -r "$B"/Makefile -a $ONLY_MAKE = "FALSE" ]
 then
