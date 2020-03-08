@@ -1,3 +1,4 @@
 [submodule "source"]
 	path = source
 	url = ../texlive-source.git
+	update = none
