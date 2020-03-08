@@ -1,0 +1,17 @@
+/*
+!/libs/*/
+/libs/cairo/*
+/libs/gmp/*
+/libs/libpng/*
+/libs/mpfr/*
+/libs/pixman/*
+/libs/zlib/*
+!/utils/*/
+!/texk/*/
+/texk/kpathsea/*
+/texk/texlive/*
+/texk/web2c/*
+!configure
+!Makefile.in
+!aclocal.m4
+!*.info
